@@ -1,0 +1,40 @@
+@media (min-width: 225px) and (max-width: 510px) {
+    body {
+        background: #6E6E6E;
+        color: white;
+    }
+    .grid {
+        background: #0b0d0c;
+        padding: 1.5rem;
+        border-radius: 1rem;
+        display: grid;
+        font-size: 20px;
+    }
+    img {
+        width: auto;
+        height: auto;
+    }
+    div {
+        align-self:center
+    }
+}
+@media (min-width: 510px) {
+    body {
+        background: #6E6E6E;
+        color: white;
+    }
+    .grid {
+        background: #0b0d0c;
+        padding: 1.5rem;
+        border-radius: 1rem;
+        font-size: 16px;
+        align-items: stretch
+    }
+    img {
+        width: 150px;
+        height: 150px;
+    }
+    div {
+        align-items:stretch
+    }
+}
